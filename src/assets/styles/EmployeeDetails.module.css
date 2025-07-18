@@ -1,0 +1,97 @@
+.wrapper {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.status {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editBtn {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.editBtn:hover {
+  color: #094ec1;
+}
+
+.body {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  flex-shrink: 0;
+}
+
+.details {
+  flex: 1;
+}
+
+.name {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.details p {
+  margin: 0.4rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: color 0.2s ease;
+}
+
+.backBtn:hover {
+  color: #094ec1;
+}
+
+.deleteBtn {
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.deleteBtn:hover {
+  color: #a71d2a;
+}
